@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
@@ -71,7 +72,7 @@ const Hero = () => {
             <div className="rounded-full border-4 border-tech-accent/30 p-2 transform animate-float">
               <div className="rounded-full border-2 border-tech-accent p-2">
                 <img
-                  src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80"
+                  src="/lovable-uploads/54433542-e4a4-4d8d-ad5d-3e7a886073e8.png"
                   alt="Brajesh Kumar"
                   className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover"
                 />
