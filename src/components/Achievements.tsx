@@ -1,4 +1,3 @@
-
 import AnimatedSection from './AnimatedSection';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -8,29 +7,22 @@ const Achievements = () => {
       title: "90 WPM Typing Speed",
       description: "Achieved 90 words per minute typing speed, demonstrating excellent keyboard proficiency and attention to detail.",
       icon: "⌨️",
-      link: "https://monkeytype.com/profile/Brajesh-Gupta",
-      image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?q=80&w=1000",
+      link: "https://monkeytype.com/profile/Brajesh_Gupta",
+      image: "https://monkeytype.com/assets/preview.png",
     },
     {
-      title: "Smart India Hackathon",
-      description: "Participated in Smart India Hackathon and built a deployed ML model with 95% accuracy for disease prediction.",
-      icon: "🏆",
-      link: "#",
-      image: "https://images.unsplash.com/photo-1559223607-a43aee8a57e1?q=80&w=1000",
-    },
-    {
-      title: "Research Paper Accepted",
+      title: "Research Paper: NER using CRFs",
       description: "Research paper on Named Entity Recognition using Conditional Random Fields accepted for publication.",
       icon: "📝",
-      link: "#",
-      image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1000",
+      link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/RTET-2024_269.pdf",
+      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/RTET-2024_269.png",
     },
     {
       title: "Dean's List - Top 10%",
       description: "Recognized in the top 10% of students at Lovely Professional University for academic excellence.",
       icon: "🎓",
-      link: "#",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1000",
+      link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/dean.png",
+      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/dean.png",
     },
   ];
 

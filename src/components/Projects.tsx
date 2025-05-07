@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import AnimatedSection from './AnimatedSection';
 import { cn } from '@/lib/utils';
@@ -22,29 +21,29 @@ const Projects = () => {
       title: "Maze Runner Game",
       description: "Microservices-based web game with Flask, Docker, and Jenkins CI/CD. Features real-time UI, modular backend architecture, and containerized deployment.",
       tags: ["Python", "Flask", "Docker", "Microservices", "Jenkins"],
-      image: "https://images.unsplash.com/photo-1610295388717-4c5bacd0d99d?q=80&w=1000",
-      github: "https://github.com/LazyCoderForU/Maze-Runner-Game",
+      image: "https://github.com/LazyCoderForU/Maze_Runner_Game_Python/raw/main/preview.png",
+      github: "https://github.com/LazyCoderForU/Maze_Runner_Game_Python",
     },
     {
-      title: "Disease Prediction Model",
+      title: "Smart India Hackathon",
       description: "Chronic disease predictor with 95% accuracy using ensemble ML methods. Includes Flask API and Docker deployment for easy integration into healthcare systems.",
       tags: ["Machine Learning", "Flask", "Docker", "Healthcare", "Python"],
-      image: "https://images.unsplash.com/photo-1581093458791-9f3c3900fd1d?q=80&w=1000",
+      image: "https://github.com/LazyCoderForU/Disease-Prediction-Model/raw/main/preview.png",
       github: "https://github.com/LazyCoderForU/Disease-Prediction-Model",
     },
     {
       title: "Real-Time Face Mask Detector",
       description: "DNN-based face mask detection system with OpenCV and Keras. Works on live video streams with high accuracy and performance optimization.",
       tags: ["Computer Vision", "Deep Learning", "Keras", "OpenCV", "Python"],
-      image: "https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?q=80&w=1000",
+      image: "https://github.com/LazyCoderForU/Real-Time-Face-Mask-Detection/raw/main/preview.png",
       github: "https://github.com/LazyCoderForU/Real-Time-Face-Mask-Detection",
     },
     {
       title: "Named Entity Recognition using CRF",
       description: "NER tool developed with Conditional Random Fields, NLTK, and spaCy. Deployed with Streamlit for interactive BIO-tagged text visualization.",
       tags: ["NLP", "CRF", "Streamlit", "NLTK", "Python"],
-      image: "https://images.unsplash.com/photo-1555952517-2e8e729e0b44?q=80&w=1000",
-      github: "https://github.com/LazyCoderForU/Ner-Streamlit-app",
+      image: "https://github.com/LazyCoderForU/Ner_Streamlit_app/raw/main/preview.png",
+      github: "https://github.com/LazyCoderForU/Ner_Streamlit_app",
     },
   ];
 
