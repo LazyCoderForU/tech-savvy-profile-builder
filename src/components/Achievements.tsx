@@ -9,21 +9,21 @@ const Achievements = () => {
       description: "Achieved 90 words per minute typing speed, demonstrating excellent keyboard proficiency and attention to detail.",
       icon: "⌨️",
       link: "https://monkeytype.com/profile/Brajesh_Gupta",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/typing.png",
+      image: "/lovable-uploads/e0cc0bb4-e10f-4812-be55-4f7f6454caf9.png",
     },
     {
       title: "Research Paper: NER using CRFs",
       description: "Research paper on Named Entity Recognition using Conditional Random Fields accepted for publication in RTET-2024.",
       icon: "📝",
       link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/RTET-2024_269.pdf",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/research.png",
+      image: "/lovable-uploads/3c512717-c809-446a-8161-f0c331f05e13.png",
     },
     {
       title: "Dean's List - Top 10%",
       description: "Recognized in the top 10% of students at Lovely Professional University with a 7.4 CGPA for academic excellence.",
       icon: "🎓",
       link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/dean.png",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/dean.png",
+      image: "/lovable-uploads/368803ed-a3fe-4d33-a54e-7b9309e85217.png",
     },
   ];
 

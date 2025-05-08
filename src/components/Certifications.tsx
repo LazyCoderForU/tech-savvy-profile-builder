@@ -15,7 +15,7 @@ const Certifications = () => {
       date: "Aug 2024",
       skills: ["Networking", "Packet Tracer", "Static Routing", "Network Configuration"],
       link: "https://www.coursera.org/account/accomplishments/verify/V6YZTF3D9FAJ",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/static-routing.png",
+      image: "/lovable-uploads/901177df-ff6f-4360-a2c5-21faaa6383c7.png",
     },
     {
       title: "IBM DevOps and Software Engineering",
@@ -23,7 +23,7 @@ const Certifications = () => {
       date: "May 2024",
       skills: ["DevOps", "CI/CD", "Docker", "Kubernetes", "Cloud Computing"],
       link: "https://www.coursera.org/account/accomplishments/professional-cert/4D4G9L4C91BJ",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/ibm-devops.png",
+      image: "/lovable-uploads/e22d5149-416c-46d7-b9da-c4a2c3bc1e3f.png",
     },
     {
       title: "Python Bootcamp: Zero to Hero",
@@ -31,7 +31,7 @@ const Certifications = () => {
       date: "Feb 2023",
       skills: ["Python", "Object-Oriented Programming", "Data Structures", "Algorithms"],
       link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9859b7c8-a067-4bb9-94fc-bb7dd4913bc4.pdf",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/python-bootcamp.png",
+      image: "/lovable-uploads/e514c46d-1ef8-402f-81cf-d83377a58fbd.png",
     },
   ];
 
