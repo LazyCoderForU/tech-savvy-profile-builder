@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import AnimatedSection from './AnimatedSection';
 import { cn } from '@/lib/utils';
@@ -25,11 +26,11 @@ const Projects = () => {
       github: "https://github.com/LazyCoderForU/Maze_Runner_Game_Python",
     },
     {
-      title: "Smart India Hackathon",
-      description: "Chronic disease predictor with 95% accuracy using ensemble ML methods. Includes Flask API and Docker deployment for easy integration into healthcare systems.",
-      tags: ["Machine Learning", "Flask", "Docker", "Healthcare", "Python"],
-      image: "https://github.com/LazyCoderForU/Disease-Prediction-Model/raw/main/preview.png",
-      github: "https://github.com/LazyCoderForU/Disease-Prediction-Model",
+      title: "Medicoz Healthcare Platform",
+      description: "Healthcare platform with patient management, appointment scheduling, and medical record tracking. Built with modern web technologies and responsive design.",
+      tags: ["React", "MongoDB", "Express", "Node.js", "Healthcare"],
+      image: "https://github.com/omkeshri/medicoz/raw/main/preview.png",
+      github: "https://github.com/omkeshri/medicoz",
     },
     {
       title: "Real-Time Face Mask Detector",
@@ -45,9 +46,16 @@ const Projects = () => {
       image: "https://github.com/LazyCoderForU/Ner_Streamlit_app/raw/main/preview.png",
       github: "https://github.com/LazyCoderForU/Ner_Streamlit_app",
     },
+    {
+      title: "Earthquake Prediction Model",
+      description: "Machine learning model to predict earthquakes based on historical seismic data. Includes data visualization and interactive dashboard for analysis.",
+      tags: ["Machine Learning", "Data Science", "Python", "Pandas", "Visualization"],
+      image: "https://github.com/LazyCoderForU/earthquake-prediction/raw/main/preview.png",
+      github: "https://github.com/LazyCoderForU/earthquake-prediction",
+    },
   ];
 
-  const filters = ['all', 'Machine Learning', 'NLP', 'Computer Vision', 'Docker', 'Python'];
+  const filters = ['all', 'Machine Learning', 'NLP', 'Computer Vision', 'Docker', 'Python', 'Healthcare'];
 
   const filteredProjects = activeFilter === 'all'
     ? projects
@@ -85,7 +93,7 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
           {filteredProjects.map((project, index) => (
-            <AnimatedSection key={project.title} delay={`delay-${(index % 4) * 100}`}>
+            <AnimatedSection key={project.title} delay={`delay-${(index % 5) * 100}`}>
               <div className="bg-tech-lightBlue/30 backdrop-blur-sm rounded-lg overflow-hidden project-card border border-tech-accent/20 h-full flex flex-col">
                 <div className="relative h-60 overflow-hidden">
                   <img 

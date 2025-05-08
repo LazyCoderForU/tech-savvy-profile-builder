@@ -1,3 +1,4 @@
+
 import AnimatedSection from './AnimatedSection';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -8,18 +9,18 @@ const Achievements = () => {
       description: "Achieved 90 words per minute typing speed, demonstrating excellent keyboard proficiency and attention to detail.",
       icon: "⌨️",
       link: "https://monkeytype.com/profile/Brajesh_Gupta",
-      image: "https://monkeytype.com/assets/preview.png",
+      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/typing.png",
     },
     {
       title: "Research Paper: NER using CRFs",
-      description: "Research paper on Named Entity Recognition using Conditional Random Fields accepted for publication.",
+      description: "Research paper on Named Entity Recognition using Conditional Random Fields accepted for publication in RTET-2024.",
       icon: "📝",
       link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/RTET-2024_269.pdf",
-      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/RTET-2024_269.png",
+      image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/research.png",
     },
     {
       title: "Dean's List - Top 10%",
-      description: "Recognized in the top 10% of students at Lovely Professional University for academic excellence.",
+      description: "Recognized in the top 10% of students at Lovely Professional University with a 7.4 CGPA for academic excellence.",
       icon: "🎓",
       link: "https://github.com/LazyCoderForU/Certificates_Link/blob/main/dean.png",
       image: "https://github.com/LazyCoderForU/Certificates_Link/raw/main/dean.png",
