@@ -1,7 +1,5 @@
-
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
@@ -39,7 +37,13 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-tech-darkBlue/50 to-tech-lightBlue/20 z-0"></div>
+      {/* Professional gradient background with subtle pattern overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-tech-darkBlue via-tech-lightBlue/70 to-tech-darkBlue/90 z-0">
+        <div className="absolute inset-0 opacity-10" style={{ 
+          backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.2\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")',
+          backgroundSize: '60px 60px' 
+        }}></div>
+      </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12">
@@ -69,13 +73,22 @@ const Hero = () => {
           </div>
           
           <div className="w-full md:w-2/5 flex justify-center animate-fade-in">
-            <div className="rounded-full border-4 border-tech-accent/30 p-2 transform animate-float">
-              <div className="rounded-full border-2 border-tech-accent p-2">
-                <img
-                  src="/lovable-uploads/54433542-e4a4-4d8d-ad5d-3e7a886073e8.png"
-                  alt="Brajesh Kumar"
-                  className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover"
-                />
+            {/* Increased image size by 50% and added professional styling */}
+            <div className="relative">
+              {/* Decorative glow effect behind the image */}
+              <div className="absolute -inset-1 rounded-full bg-tech-accent/20 blur-xl"></div>
+              
+              {/* Outer border with professional gradient */}
+              <div className="rounded-full bg-gradient-to-br from-tech-accent via-tech-accent/50 to-tech-darkBlue p-1 relative">
+                {/* Inner border with tech accent */}
+                <div className="rounded-full border-2 border-tech-accent p-1 bg-tech-darkBlue/50 backdrop-blur-sm">
+                  {/* Increased size by 50% from original dimensions */}
+                  <img
+                    src="/lovable-uploads/54433542-e4a4-4d8d-ad5d-3e7a886073e8.png"
+                    alt="Brajesh Kumar"
+                    className="w-84 h-84 md:w-96 md:h-96 rounded-full object-cover shadow-xl"
+                  />
+                </div>
               </div>
             </div>
           </div>
