@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
-  const roles = ['AI & ML Engineer', 'Python Developer', 'DevOps Engineer', 'Data Scientist'];
+  const roles = ['Aspiring AI & ML Engineer', 'Python Developer', 'DevOps Engineer', 'Aspiring Data Scientist'];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
