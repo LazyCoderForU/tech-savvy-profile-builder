@@ -21,9 +21,8 @@ const Skills = () => {
       category: "languages",
       skills: [
         { name: "Python", level: 95 },
-        { name: "Java", level: 80 },
-        { name: "C++", level: 75 },
-        { name: "C", level: 85 },
+        { name: "Java", level: 60 },
+        { name: "C++", level: 60 },
         { name: "SQL", level: 90 },
         { name: "Bash", level: 70 },
         { name: "PL/SQL", level: 65 },
@@ -32,20 +31,19 @@ const Skills = () => {
     {
       category: "frameworks",
       skills: [
-        { name: "TensorFlow", level: 90 },
-        { name: "Keras", level: 85 },
+        { name: "TensorFlow", level: 80 },
+        { name: "Keras", level: 90 },
         { name: "scikit-learn", level: 95 },
-        { name: "OpenCV", level: 80 },
-        { name: "NLTK", level: 85 },
-        { name: "spaCy", level: 75 },
-        { name: "Hugging Face", level: 80 },
+        { name: "OpenCV", level: 60 },
+        { name: "NLTK", level: 90 },
+        { name: "spaCy", level: 90 },
         { name: "Streamlit", level: 90 },
       ]
     },
     {
       category: "tools",
       skills: [
-        { name: "Git", level: 90 },
+        { name: "Git", level: 95 },
         { name: "GitHub", level: 95 },
         { name: "Docker", level: 85 },
         { name: "AWS", level: 75 },
@@ -56,8 +54,8 @@ const Skills = () => {
     {
       category: "data",
       skills: [
-        { name: "pandas", level: 95 },
-        { name: "NumPy", level: 90 },
+        { name: "pandas", level: 100 },
+        { name: "NumPy", level: 100 },
         { name: "Matplotlib", level: 85 },
         { name: "Seaborn", level: 80 },
         { name: "Plotly", level: 75 },
@@ -69,10 +67,10 @@ const Skills = () => {
       skills: [
         { name: "Machine Learning", level: 95 },
         { name: "Deep Learning", level: 90 },
-        { name: "NLP", level: 85 },
+        { name: "NLP", level: 95 },
         { name: "Computer Vision", level: 80 },
-        { name: "DevOps", level: 75 },
-        { name: "Microservices", level: 70 },
+        { name: "DevOps", level: 70 },
+        { name: "Microservices", level: 80 },
       ]
     }
   ];
