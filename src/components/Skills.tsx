@@ -24,8 +24,8 @@ const Skills = () => {
         { name: "Java", level: 60 },
         { name: "C++", level: 60 },
         { name: "SQL", level: 90 },
+        { name: "PostgreSQL", level: 90 },
         { name: "Bash", level: 70 },
-        { name: "PL/SQL", level: 65 },
       ]
     },
     {
