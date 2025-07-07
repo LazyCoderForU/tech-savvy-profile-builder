@@ -11,21 +11,16 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="md:col-span-2 space-y-4">
               <p className="text-gray-300 leading-relaxed">
-                I'm a passionate <span className="text-tech-accent">prefinal year B.Tech Computer Science student</span> at Lovely Professional University, with over
-                10 years of theoretical and practical experience in developing AI and machine learning solutions.
+                Hi, I'm Brajesh Kumar, an <span className="text-tech-accent">aspiring Machine Learning Engineer and Data Scientist</span> with a passion for turning data into actionable insights. My journey into the world of machine learning has been focused on building real-world applications that integrate cutting-edge algorithms with scalable backend systems.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                My journey in technology began with a fascination for how computers could solve complex problems. This led me to specialize in 
-                <span className="text-tech-accent"> Machine Learning</span>, <span className="text-tech-accent">Natural Language Processing</span>, 
-                and <span className="text-tech-accent">Data Science</span> — turning complex data into meaningful, actionable insights.
+                One of my notable projects is the <span className="text-tech-accent">Named Entity Recognition (NER) System</span>, where I developed a CRF-based model for text analysis and deployed it with a real-time Streamlit web app. Another significant project I worked on is the <span className="text-tech-accent">Real-Time Face Mask Detection System</span>, where I leveraged MobileNetV2 and Keras to build a robust solution for edge devices with real-time performance.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                With expertise in Python and various ML frameworks like TensorFlow and scikit-learn, I've built multiple
-                projects including disease prediction models, face mask detection systems, and NER with CRF—all aimed at solving real-world problems.
+                With experience in <span className="text-tech-accent">Python, FastAPI, PostgreSQL, and Docker</span>, I'm committed to improving my skills and building innovative solutions to solve complex problems. I'm excited about the potential of machine learning and eager to contribute to future projects that make an impact.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                My DevOps knowledge allows me to build and deploy scalable solutions using Docker, AWS, and CI/CD pipelines, ensuring that my
-                machine learning models don't just work in theory, but can be deployed effectively in production environments.
+                Feel free to explore my projects below and reach out if you'd like to connect or collaborate!
               </p>
               
               <div className="pt-6 flex flex-wrap gap-4 text-sm">
@@ -54,7 +49,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="text-tech-accent">💻</span>
-                    <span>AI & ML Specialist</span>
+                    <span>Aspiring AI & ML Engineer</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="text-tech-accent">🔄</span>
@@ -66,7 +61,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="text-tech-accent">📊</span>
-                    <span>Data Science Expert</span>
+                    <span>Aspiring Data Scientist</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="text-tech-accent">🚀</span>
