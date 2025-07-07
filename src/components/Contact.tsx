@@ -1,43 +1,9 @@
 
-import { useState } from 'react';
 import AnimatedSection from './AnimatedSection';
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Github, Linkedin, MapPin } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormState(prev => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thanks for reaching out. I'll get back to you soon.",
-      });
-      setFormState({ name: '', email: '', message: '' });
-      setIsSubmitting(false);
-    }, 1500);
-  };
 
   const contactInfo = [
     {
@@ -76,68 +42,9 @@ const Contact = () => {
           </p>
         </AnimatedSection>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+        <div className="max-w-2xl mx-auto mt-10">
           <AnimatedSection delay="delay-100">
-            <div className="bg-tech-lightBlue/30 backdrop-blur-sm rounded-lg p-8 border border-tech-accent/20 h-full">
-              <h3 className="text-xl font-semibold text-white mb-6">Send Me A Message</h3>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                    Name
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    value={formState.name}
-                    onChange={handleInputChange}
-                    placeholder="Your name"
-                    required
-                    className="bg-tech-darkBlue/50 border-tech-accent/30 focus-visible:ring-tech-accent text-white"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    Email
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formState.email}
-                    onChange={handleInputChange}
-                    placeholder="Your email"
-                    required
-                    className="bg-tech-darkBlue/50 border-tech-accent/30 focus-visible:ring-tech-accent text-white"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                    Message
-                  </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formState.message}
-                    onChange={handleInputChange}
-                    placeholder="Your message"
-                    required
-                    rows={5}
-                    className="bg-tech-darkBlue/50 border-tech-accent/30 focus-visible:ring-tech-accent text-white"
-                  />
-                </div>
-                <Button 
-                  type="submit" 
-                  className="bg-tech-accent text-tech-darkBlue hover:bg-tech-accent/90 w-full"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
-                </Button>
-              </form>
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection delay="delay-200">
-            <div className="bg-tech-lightBlue/30 backdrop-blur-sm rounded-lg p-8 border border-tech-accent/20 h-full">
+            <div className="bg-tech-lightBlue/30 backdrop-blur-sm rounded-lg p-8 border border-tech-accent/20">
               <h3 className="text-xl font-semibold text-white mb-6">Contact Information</h3>
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
@@ -177,7 +84,7 @@ const Contact = () => {
                 <h4 className="text-white font-medium mb-4">My Resume</h4>
                 <Button className="bg-tech-accent/90 text-tech-darkBlue hover:bg-tech-accent w-full">
                   <a 
-                    href="https://drive.google.com/file/d/1rKyOCgiXJRh9ey34Y6SbC-JH2b5Z5OCx/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/167X0quyGjOo_A6rwCiPhHIhx9IG2jlQx/view" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center gap-2"
